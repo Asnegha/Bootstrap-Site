@@ -7,6 +7,7 @@
   
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/6258802bd9.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
 
     
     <nav class="navbar navbar-expand-lg navbar-dark ">
-      <a class="navbar-brand" href="">Knocktalgia</a>
+      <a class="navbar-brand" href=""><i class="fa-brands fa-kickstarter"></i> Knocktalgia</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,11 +47,11 @@
     <div class = 'row'>
     <div class="col-lg-6">
       <h1 class="knock">Knock! Knock! Time to make new and interesting friends nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
     </div>
     <div class="col-lg-6">
-      <img src="images/iphone.png" alt="iphone-mockup">
+      <img class="title-image rounded" src="images/iphone.png" alt="iphone-mockup">
     </div>
   </div>
 </div>
@@ -60,15 +61,25 @@
   <!-- Features -->
 
   <section id="features">
+    <div class="row">
+      <div class="col-lg-4 f-box">
+    <i class="fa-solid fa-circle-check fa-3x"></i>
+    <h3 class="icon-title">Easy to use.</h3>
+    <p class="icon-message">So easy to use with simple and clear navigation details.</p>
+  </div>
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use with simple and clear navigation details.</p>
+    <div class="col-lg-4 f-box"> 
+      <i class="fa-solid fa-bullseye fa-3x"></i>
+    <h3 class="icon-title">In app voice and video calling</h3>
+    <p class="icon-message">We have secured in app voice and video calling with prohibited screenshot feature.</p>
+  </div>
 
-    <h3>In app voice and video calling</h3>
-    <p>We have secured in app voice and video calling with prohibited screenshot feature.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find your tea time partner in 10 days or guaranteed money back return.</p>
+    <div class="col-lg-4 f-box">
+    <i class="fa-solid fa-heart fa-3x"></i>
+    <h3 class="icon-title">Guaranteed to work.</h3>
+    <p class="icon-message">Find your tea time partner in 10 days or guaranteed money back return.</p>
+  </div>  
+  </div>
 
   </section>
 
@@ -77,8 +88,8 @@
 
   <section id="testimonials">
 
-    <h2>I no longer have to spend time alone. I meet people of my age nearby and chitchat.</h2>
-    <img src="images/grandparmeet.png" alt="dog-profile">
+    <h2 class="testimonial-msg">I no longer have to spend time alone. I meet people of my age nearby and chitchat.</h2>
+    <img class="testimonial-image" src="images/gp.png" alt="dog-profile">
     <em>Pebbles, New York</em>
 
     <!-- <h2 class="testimonial-text">I do organize fun trips for people of my age. Also found my crime partner and we both participate in fashion shows.    </h2>
@@ -91,10 +102,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-img"src="images/tnw.png" alt="tnw-logo">
+    <img class="press-img"src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-img"src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
