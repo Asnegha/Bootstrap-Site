@@ -87,14 +87,37 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false" >
+      <div class="carousel-indicators">
+       <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+       <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     </div> 
+     <div class="carousel-inner">
+       <div class="carousel-item active" >
+        <h2 class="testimonial-msg">I no longer have to spend time alone. I meet people of my age nearby and chitchat.</h2>
+        <img class="testimonial-image" src="images/gp.png" alt="dog-profile">
+        <em>Pebbles, New York</em>
+       </div>
+       <div class="carousel-item" >
+        <h2 class="testimonial-msg">I do organize fun trips for people of my age. Also found my crime partner and we both participate in fashion shows.    </h2>
+        <img class="testimonial-image" src="images/happyganny.png" alt="lady-profile">
+        <em>Beverly, Illinois</em>
+       </div>   
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+  
 
-    <h2 class="testimonial-msg">I no longer have to spend time alone. I meet people of my age nearby and chitchat.</h2>
-    <img class="testimonial-image" src="images/gp.png" alt="dog-profile">
-    <em>Pebbles, New York</em>
+  
 
-    <!-- <h2 class="testimonial-text">I do organize fun trips for people of my age. Also found my crime partner and we both participate in fashion shows.    </h2>
-    <img class="testimonial-image" src="images/happyganny.png" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+    
 
   </section>
 
@@ -114,35 +137,55 @@
 
   <section id="pricing">
 
-    <h2>A Plan for Everyone's Needs</h2>
+    <h2 class="pricing-title">A Plan for Everyone's Needs</h2>
     <p>Simple and affordable price plans.</p>
+    
+    <div class="pricing-div row">
+      <div class="col-lg-4 col-md-6">
+     <div class="card">
+      <div class="card-header">
+        <h3 class="pricing-head">YourTime</h3>
+      </div>
+      <div class="card-body">
+        <h2 class="pricing-head">Free</h2>
+        <p>5 profile interaction Per Day</p>
+        <p>No group interaction</p>
+        <p>Unlimited App Usage</p>
+        <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign Up</button>
+      </div>
+     </div>
+    </div>
+     
+    <div class="col-lg-4 col-md-6">
+     <div class="card">
+      <div class="card-header">
+        <h3 class="pricing-head">Super</h3>
+      </div>
+      <div class="card-body">
+        <h2 class="pricing-head">$49 / mo</h2>
+        <p>Limited Group chat usage</p>
+        <p>Unlimited interaction</p>
+        <p>Unlimited App Usage</p>
+        <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+      </div>
+     </div>
+    </div>
 
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 profile interaction Per Day</p>
-    <p>5 voice and video call Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Super</h3>
-    <h2>$49 / mo</h2>
-    <p>Limited Group chat usage</p>
-    <p>Unlimited interaction</p>
-    <p>Unlimited voice and video call</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Premium</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Group chat usage</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited voice and video call</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    <div class="col-lg-4">
+     <div class="card ">
+      <div class="card-header">
+        <h3 class="pricing-head">Premium</h3>
+      </div>
+      <div class="card-body">
+        <h2 class="pricing-head">$99 / mo</h2>
+        <p>Pirority Listing</p>
+        <p>All unlimited interaction</p>
+        <p>Unlimited App Usage</p>
+        <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+      </div>
+     </div>
+    </div>
+    </div>
 
   </section>
 
@@ -151,9 +194,9 @@
 
   <section id="cta">
 
-    <h3>To some people age is just a number. But to others, it's a gift.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-text">To some people age is just a number. But to others, it's a gift.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
 
   </section>
 
@@ -161,8 +204,11 @@
   <!-- Footer -->
 
   <footer id="footer">
-
-    <p>© Copyright Knocktalgia</p>
+    <a href="https://twitter.com"><i class="icon fa-brands fa-twitter"></i></a>
+    <a href="https://www.facebook.com/"><i class="icon fa-brands fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/"><i class="icon fa-brands fa-instagram"></i></a>
+    <a href="mailto:name@email.com"><i class="icon fa-regular fa-envelope"></i></a>
+    <p class="copywrite">© Copyright Knocktalgia</p>
 
   </footer>
 
